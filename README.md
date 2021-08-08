@@ -1,8 +1,10 @@
 # SnakeGame
 <br>
+
 ## Installation
 
 <br>
+
 1.Clone this repository
 
 ```html
