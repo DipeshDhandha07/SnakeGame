@@ -1,6 +1,4 @@
 # SnakeGame
-
-# Machine Learning Projects
 <br>
 
 ## Installation
@@ -9,7 +7,7 @@
 1.Clone this repository
 
 ```html
-https://github.com/DipeshDhandha07/Machine-Learning-Projects.git
+
 ```
 
 2.Python
