@@ -7,7 +7,7 @@
 1.Clone this repository
 
 ```html
-
+https://github.com/DipeshDhandha07/SnakeGame.git
 ```
 
 2.Python
