@@ -1,6 +1,5 @@
 # SnakeGame
 <br>
-
 ## Installation
 
 <br>
