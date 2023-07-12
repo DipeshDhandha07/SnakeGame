@@ -1,6 +1,11 @@
 # SnakeGame
 <br>
 
+![image](https://github.com/DipeshDhandha07/SnakeGame/assets/55910147/a6f1195f-97a3-4fde-91b2-7f7d518ccfbf)
+![image](https://github.com/DipeshDhandha07/SnakeGame/assets/55910147/6851236c-da32-4eea-95ce-3e68db178262)
+![image](https://github.com/DipeshDhandha07/SnakeGame/assets/55910147/a3b9e529-0f32-4b29-bc86-3f9943740ea9)
+
+
 ## Download
 <br>
 
