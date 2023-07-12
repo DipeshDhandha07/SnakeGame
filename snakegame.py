@@ -36,25 +36,21 @@ def start_game():
     start_font2 = medium_font.render("Play Game", True, RED, YELLOW)
     start_font3 = medium_font.render("Instructions", True, RED, YELLOW)
     start_font4 = medium_font.render("Quit", True, RED, YELLOW)
-    start_font5 = medium_font.render("Creator", True, RED, YELLOW)
-
+   
     start_font1_rect = start_font1.get_rect()
     start_font2_rect = start_font2.get_rect()
     start_font3_rect = start_font3.get_rect()
     start_font4_rect = start_font4.get_rect()
-    start_font5_rect = start_font5.get_rect()
-
+   
     start_font1_rect.center = (WINDOW_WIDTH/2, WINDOW_HEIGHT/2 - 100)
     start_font2_rect.center = (WINDOW_WIDTH/2 + 100, WINDOW_HEIGHT/2 + 50)
     start_font3_rect.center = (WINDOW_WIDTH/2 + 100, WINDOW_HEIGHT / 2 + 100)
-    start_font5_rect.center = (WINDOW_WIDTH/2 + 100, WINDOW_HEIGHT / 2 + 150)
     start_font4_rect.center = (WINDOW_WIDTH/2 + 100, WINDOW_HEIGHT/2 + 200)
 
     canvas.blit(start_font1, start_font1_rect)
     canvas.blit(start_font2, start_font2_rect)
     canvas.blit(start_font3, start_font3_rect)
     canvas.blit(start_font4, start_font4_rect)
-    canvas.blit(start_font5, start_font5_rect)
     pygame.display.update()
     while True:
         for event in pygame.event.get():
@@ -75,53 +71,12 @@ def start_game():
                 if x > start_font2_rect.left and x < start_font2_rect.right:
                     if y > start_font2_rect.top and y < start_font2_rect.bottom:
                         gameloop()
-                if x > start_font5_rect.left and x < start_font5_rect.right:
-                    if y > start_font5_rect.top and y < start_font5_rect.bottom:
-                        creator()
                 if x > start_font4_rect.left and x < start_font4_rect.right:
                     if y > start_font4_rect.top and y < start_font4_rect.bottom:
                         pygame.quit()
                         sys.exit()
 
 
-        pygame.display.update()
-
-
-def creator():
-    canvas.fill(BLACK)
-    my_img = pygame.image.load('image1.jpg')
-    my_img_rect = my_img.get_rect()
-    my_img_rect.center = (WINDOW_WIDTH/2, my_img_rect.height/2 + 20)
-    canvas.blit(my_img, my_img_rect)
-
-    start_inst1 = large_font.render("Surya Prakash Reddy", False, GREEN)
-    start_inst1_rect = start_inst1.get_rect()
-    start_inst1_rect.center = (WINDOW_WIDTH/2, 420)
-    canvas.blit(start_inst1, start_inst1_rect)
-
-    start_inst2 = small_font.render("Hello guys, This is Surya. Thanks for playing my game.", True, BLUE)
-    start_inst3 = small_font.render("This is a very simple game, developed using python", True, BLUE)
-    start_inst4 = small_font.render("In case of queries, write to surajchinna1@gmail.com", True, BLUE)
-    canvas.blit(start_inst2, (10, 470))
-    canvas.blit(start_inst3, (10, 500))
-    canvas.blit(start_inst4, (10, 530))
-
-    start_inst5 = medium_font.render("<<BACK", True, RED, YELLOW)
-    start_inst5_rect = start_inst5.get_rect()
-    start_inst5_rect.center = (WINDOW_WIDTH - start_inst5_rect.width/2, WINDOW_HEIGHT - start_inst5_rect.height/2)
-    canvas.blit(start_inst5, start_inst5_rect)
-    pygame.display.update()
-
-    while True:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
-            if event.type == pygame.MOUSEBUTTONDOWN:
-                x, y = event.pos
-                if x > start_inst5_rect.left and x < start_inst5_rect.right:
-                    if y > start_inst5_rect.top and y < start_inst5_rect.bottom:
-                        start_game()
         pygame.display.update()
 
 
