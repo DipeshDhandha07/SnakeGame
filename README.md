@@ -1,5 +1,5 @@
 # SnakeGame
-This is a simple project create using pygame module in python
+This is a simple project create using pygame module in python where the snake eats apple ,becomes larger in size everytime when he eats and the points increases.
 <br>
 
 ![image](https://github.com/DipeshDhandha07/SnakeGame/assets/55910147/a6f1195f-97a3-4fde-91b2-7f7d518ccfbf)
