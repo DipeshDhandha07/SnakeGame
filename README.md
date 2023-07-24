@@ -1,5 +1,6 @@
 # SnakeGame
 <br>
+This is a simple project create using pygame module in python
 
 ![image](https://github.com/DipeshDhandha07/SnakeGame/assets/55910147/a6f1195f-97a3-4fde-91b2-7f7d518ccfbf)
 ![image](https://github.com/DipeshDhandha07/SnakeGame/assets/55910147/6851236c-da32-4eea-95ce-3e68db178262)
